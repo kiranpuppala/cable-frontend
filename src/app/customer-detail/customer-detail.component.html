@@ -1,3 +1,77 @@
-<p>
-  customer-detail works!
-</p>
+<div class="dashboard">
+
+      <p class="greeting">Hello, Mr.Kiran</p>
+
+      <div class="dashboardContent">
+        <div class="operatorContent">
+          <img class="operatorImg" src="../assets/images/person.png">
+          <div class="operatorDetails">
+            <table>
+              <tr>
+                <td>NAME</td>
+                <td>Kiran Puppala</td>
+              </tr>
+              <tr>
+                <td>OPERATOR ID</td>
+                <td>22424234234</td>
+              </tr>
+              <tr>
+                <td>AREA</td>
+                <td>KALIDINDI</td>
+              </tr>
+              <tr>
+                <td>CUSTOMERS</td>
+                <td>2323</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="customerDetails">
+
+          <div class="detailHeader">
+            <p>Customer Details</p>
+            <div class="addCustomerButton">
+              <img src="../assets/images/add.png">
+              <p>Add Customer</p>
+            </div>
+          </div>
+
+          <div class="customerTable">
+            <table>
+              <tr class="customerTableHeader">
+                <td>NAME</td>
+                <td>CUSTOMER ID</td>
+                <td>EMAIL</td>
+                <td>PHONE NUMBER</td>
+                <td>DUE DATE</td>
+                <td>CONNECTION</td>
+              </tr>
+
+              <ng-container *ngFor="let customer of customers">
+                <tr>
+                  <td><a href="#">{{customer.name}}</a></td>
+                  <td>{{customer.customerId}}</td>
+                  <td>{{customer.email}}</td>
+                  <td>{{customer.mobile}}</td>
+                  <td>{{customer.dueDate}}</td>
+                  <td>
+                    <div class="connectionStatus">{{customer.connection}}</div>
+                  </td>
+                </tr>
+              </ng-container>
+
+            </table>
+
+          </div>
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+
+      </div>
+    </div>

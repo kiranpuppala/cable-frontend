@@ -1,0 +1,101 @@
+.dashboard {
+    float : left;
+    padding : 32px;
+    width : 89%;
+}
+
+.greeting {
+    font-size: 21px;
+}
+
+.dashboardContent {
+    background: white;
+    padding : 52px;
+    margin-top : 40px;
+}
+
+.operatorContent {
+    margin-bottom : 52px
+
+}
+.operatorImg{
+    display: inline-block;
+    vertical-align: middle;
+    height: 154px;
+    width: 154px;
+}
+.operatorDetails{
+    margin-left: 26px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.operatorDetails table{
+    border-collapse: collapse;
+}
+.operatorDetails td{
+    font-size: 12px;
+    padding-top : 13px;
+    padding-bottom: 13px;
+    padding-right: 23px;
+}
+
+hr {
+    border: 0.5px solid #EBEDF8;
+}
+
+.customerDetails {
+    margin-top : 52px;
+}
+
+.detailHeader {
+    margin-bottom: 52px;
+    position: relative;
+}
+
+.detailHeader p {
+    display: inline-block;
+}
+
+.addCustomerButton {
+    position: absolute;
+    right: 0px;
+    top : -10px;
+    display : inline-block; 
+    float : right;
+    background : #0077FF;
+    border-radius: 4px;
+    padding : 10px 20px 10px 20px;
+    color : white;
+
+}
+
+.addCustomerButton img{
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+}
+
+.addCustomerButton p{
+    margin-left : 12px;
+    font-size:  14px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+
+.customerTable table{
+    width : 100%;
+    border-collapse: collapse
+}
+
+.customerTable td{
+    padding-right : 60px;
+    padding-bottom : 30px;
+    color: #354052;
+    font-size: 15px;
+}
+
+.customerTableHeader td {
+    font-size: 10.45px;
+    color : #B4BAC6;
+}
